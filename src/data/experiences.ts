@@ -61,7 +61,7 @@ export const experiences: Experience[] = [
     companyName: "Maverick Software Consulting",
     startDate: "Apr 2013",
     endDate: "Dec 2014",
-    description: `Full-stack development internship on numberous projects at Thomson Rueters`,
+    description: `Full-stack development internship on numerous projects at Thomson Rueters`,
   },
   {
     companyName: "Minnesota State University, Mankato",
