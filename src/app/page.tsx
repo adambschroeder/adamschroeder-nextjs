@@ -98,7 +98,7 @@ export default function Home() {
           </div>
 
           {/* Experience section */}
-          <h1 className="text-blue-700 mb-2 pl-2">Experience</h1>
+          <h1 className="mb-2 pl-2">Experience</h1>
           <div className="mb-10">
             <ul>
               {experiences.map((experience, index, list) => {

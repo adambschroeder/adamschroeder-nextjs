@@ -19,7 +19,7 @@ export const experiences: Experience[] = [
       {
         name: "Amazon Studios",
         description:
-          "Frontend & cloud development for Amazon Studio title medadata management web applications.",
+          "Frontend & cloud development for Amazon Studio title medadata management web applications",
       },
     ],
   },
@@ -31,17 +31,17 @@ export const experiences: Experience[] = [
       {
         name: "Cargill",
         description:
-          "Frontend development on a commodities trading web application.",
+          "Frontend development on a commodities trading web application",
       },
       {
         name: "Hill Museum & Manuscript Library",
         description:
-          "Frontend development & UX for a web app managing metadata of very old manuscripts.",
+          "Frontend development & UX for a web app managing metadata of historic manuscripts",
       },
       {
         name: "Patterson Companies",
         description:
-          "Frontend/UI development for a pattern library used within an e-commerce application.",
+          "Frontend/UI development for a pattern library used within an e-commerce application",
       },
     ],
   },
@@ -49,22 +49,22 @@ export const experiences: Experience[] = [
     companyName: "Sportsdigita",
     startDate: "Nov 2016",
     endDate: "Oct 2018",
-    description: `Lead frontend development on a sales-enablement presentation platform.`,
+    description: `Lead frontend development on a sales-enablement presentation platform`,
   },
   {
     companyName: "ImageTrend",
     startDate: "Jan 2015",
     endDate: "Nov 2016",
-    description: `Full-stack development on different projects ranging from retail websites to live auction web applications.`,
+    description: `Full-stack development on different projects ranging from retail websites to live auction web applications`,
   },
   {
     companyName: "Maverick Software Consulting",
     startDate: "Apr 2013",
     endDate: "Dec 2014",
-    description: `Full-stack development internship on numberous projects at Thomson Rueters.`,
+    description: `Full-stack development internship on numberous projects at Thomson Rueters`,
   },
   {
     companyName: "Minnesota State University, Mankato",
-    description: `Graduated with honors in Computer Information Technology with an emphasis on Human Computer Interaction.`,
+    description: `Graduated with honors in Computer Information Technology with an emphasis on Human Computer Interaction`,
   },
 ];
