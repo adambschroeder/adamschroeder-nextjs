@@ -84,7 +84,7 @@ export default function Home() {
           </div>
 
           {/* Skills section */}
-          <div className="border rounded-lg shadow-sm bg-white py-2 px-5 mb-5">
+          <div className="border rounded-lg shadow-sm bg-white py-2 px-5 mb-7">
             <CardHeading heading="Skills"></CardHeading>
             <ul className="list-inside">
               <li>React, Vue, ...</li>
