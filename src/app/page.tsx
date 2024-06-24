@@ -87,13 +87,15 @@ export default function Home() {
           <div className="border rounded-lg shadow-sm bg-white py-2 px-5 mb-7">
             <CardHeading heading="Skills"></CardHeading>
             <ul className="list-inside">
-              <li>React, Vue, ...</li>
+              <li>React, Vue, Angular, Svelte</li>
               <li>AWS</li>
               <li>HTML/CSS architecture</li>
+              <li>Static Site Generation</li>
               <li>Node</li>
               <li>Amazon Connect</li>
               <li>Accessibility</li>
               <li>User Experience</li>
+              <li>Netlify</li>
             </ul>
           </div>
 
