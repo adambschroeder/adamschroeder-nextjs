@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { experiences } from "../data/experiences";
+import { experiences, skills } from "../data/experiences";
 import Experience from "./components/experience";
 import CardHeading from "./components/card-heading";
 
@@ -78,33 +78,32 @@ export default function Home() {
           <div className="border rounded-lg shadow-xs bg-white py-2 px-5 mb-5">
             <CardHeading heading="About"></CardHeading>
             <p>
-              Frontend leaning software developer. Regularly up for a challenge
-              unless it involves really high cliffs.
+              Frontend-leaning software developer with 10+ years building web
+              applications for enterprise and government teams, from accessible
+              UI to the cloud services behind it. Lately I lead frontend work on
+              large teams and build with AI tooling. Regularly up for a
+              challenge unless it involves really high cliffs.
             </p>
           </div>
 
           {/* Skills section */}
           <div className="border rounded-lg shadow-xs bg-white py-2 px-5 mb-7">
             <CardHeading heading="Skills"></CardHeading>
-            <ul className="list-inside">
-              <li>React, Vue, Angular, Svelte</li>
-              <li>AWS</li>
-              <li>HTML/CSS architecture</li>
-              <li>Static Site Generation</li>
-              <li>Node</li>
-              <li>Amazon Connect</li>
-              <li>Accessibility</li>
-              <li>User Experience</li>
-              <li>Netlify</li>
-            </ul>
+            <dl className="space-y-1.5">
+              {skills.map(({ label, items }) => (
+                <div key={label}>
+                  <dt className="text-slate-500 text-xs">{label}</dt>
+                  <dd>{items}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
 
           {/* Experience section */}
           <h1 className="mb-2 pl-2">Experience</h1>
           <div className="mb-10">
             <ul>
-              {experiences.map((experience, index, list) => {
-                const lastItem = index + 1 === list.length;
+              {experiences.map((experience, index) => {
                 return (
                   <Experience key={index} experience={experience}></Experience>
                 );

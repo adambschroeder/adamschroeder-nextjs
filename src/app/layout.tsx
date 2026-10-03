@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Adam",
-  description: "Resume website for Adam Schroeder",
+  title: "Adam Schroeder | Software Developer",
+  description:
+    "Adam Schroeder is a Minnesota-based software developer specializing in frontend, cloud and AI-assisted development.",
 };
 
 export default function RootLayout({

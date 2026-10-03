@@ -1,6 +1,3 @@
-import { Client as ClientType } from "@/src/data/experiences";
-import Image from "next/image";
-
 interface CardHeadingProps {
   heading: string;
 }
