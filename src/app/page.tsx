@@ -119,7 +119,7 @@ export default function Home() {
           </div>
 
           <footer className="text-slate-500 dark:text-slate-400 text-xs text-center mb-5">
-            Rest easy Dusty &amp; Derek
+            Rest easy Dusty &amp; Derek, yeehaw
           </footer>
         </div>
       </main>
