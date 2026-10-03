@@ -4,7 +4,7 @@ import Experience from "./components/experience";
 import CardHeading from "./components/card-heading";
 
 const contactLink =
-  "text-blue-700 dark:text-blue-400 border border-blue-700 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-slate-800 focus-visible:ring-2 focus-visible:outline-hidden focus-visible:ring-blue-300 font-medium rounded-lg text-sm p-1.5 text-center inline-flex items-center gap-1.5";
+  "text-blue-700 dark:text-blue-400 border border-blue-700 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-slate-800 focus-visible:ring-2 focus-visible:outline-hidden focus-visible:ring-blue-700 dark:focus-visible:ring-blue-400 font-medium rounded-lg text-sm p-1.5 text-center inline-flex items-center gap-1.5";
 
 export default function Home() {
   return (
