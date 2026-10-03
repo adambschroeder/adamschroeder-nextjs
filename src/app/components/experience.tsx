@@ -9,7 +9,7 @@ interface ExperienceProps {
 export default function Experience({ experience }: ExperienceProps) {
   return (
     <>
-      <li className="border rounded-lg shadow-sm bg-white py-2.5 px-5 mb-5">
+      <li className="border rounded-lg shadow-xs bg-white py-2.5 px-5 mb-5">
         <h2 className="text-slate-500 text-xs mb-2">
           {experience.companyName}&nbsp;
           {experience.startDate &&

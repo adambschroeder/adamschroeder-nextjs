@@ -26,7 +26,7 @@ export default function Home() {
 
             <a
               href="mailto:adam.b.schroeder@gmail.com"
-              className="text-blue-700 border border-blue-700 hover:bg-blue-100 focus:ring-1 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-1.5 text-center inline-flex items-center me-2"
+              className="text-blue-700 border border-blue-700 hover:bg-blue-100 focus:ring-1 focus:outline-hidden focus:ring-blue-300 font-medium rounded-lg text-sm p-1.5 text-center inline-flex items-center me-2"
             >
               <svg
                 className="w-[20px] h-[20px] text-gray-800 dark:text-blue-700"
@@ -51,7 +51,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/adam-schroeder/"
               target="_blank"
-              className="text-blue-700 border border-blue-700 hover:bg-blue-100 focus:ring-1 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-1.5 text-center inline-flex items-center me-2"
+              className="text-blue-700 border border-blue-700 hover:bg-blue-100 focus:ring-1 focus:outline-hidden focus:ring-blue-300 font-medium rounded-lg text-sm p-1.5 text-center inline-flex items-center me-2"
             >
               <svg
                 className="w-[20px] h-[20px] text-gray-800 dark:text-blue-700"
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
 
           {/* About Section */}
-          <div className="border rounded-lg shadow-sm bg-white py-2 px-5 mb-5">
+          <div className="border rounded-lg shadow-xs bg-white py-2 px-5 mb-5">
             <CardHeading heading="About"></CardHeading>
             <p>
               Frontend leaning software developer. Regularly up for a challenge
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
 
           {/* Skills section */}
-          <div className="border rounded-lg shadow-sm bg-white py-2 px-5 mb-7">
+          <div className="border rounded-lg shadow-xs bg-white py-2 px-5 mb-7">
             <CardHeading heading="Skills"></CardHeading>
             <ul className="list-inside">
               <li>React, Vue, Angular, Svelte</li>
