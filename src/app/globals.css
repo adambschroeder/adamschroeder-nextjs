@@ -12,15 +12,32 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
+
+  @media (prefers-color-scheme: dark) {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+      border-color: var(--color-slate-700, currentColor);
+    }
+  }
 }
 
 :root {
   --background-rgb: 248, 250, 252;
   --foreground-rgb: 0, 0, 0;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-rgb: 2, 6, 23;
+    --foreground-rgb: 226, 232, 240;
+  }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb));
-  font-family: "Courier New", Courier, monospace;
 }
