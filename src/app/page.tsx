@@ -152,7 +152,7 @@ export default function Home() {
 
           {/* Experience section */}
           <h2 className="mb-2 pl-2">Experience</h2>
-          <div className="mb-10">
+          <div className="mb-4">
             <ul>
               {experiences.map((experience, index) => {
                 return (
@@ -161,6 +161,20 @@ export default function Home() {
               })}
             </ul>
           </div>
+
+          <p className="text-slate-600 dark:text-slate-300 text-sm text-center text-balance mb-10">
+            P.S. While you&apos;re here, my wife is an awesome mystery &amp;
+            thriller author. Check out her books at{" "}
+            <a
+              href="https://psfischbach.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 dark:text-blue-400 underline underline-offset-2 hover:no-underline focus-visible:ring-2 focus-visible:outline-hidden focus-visible:ring-blue-700 dark:focus-visible:ring-blue-400 rounded-sm"
+            >
+              psfischbach.com
+              <span className="sr-only"> (opens in a new tab)</span>
+            </a>
+          </p>
 
           <footer className="text-slate-500 dark:text-slate-400 text-xs text-center mb-5">
             Rest easy Dusty &amp; Derek, yeehaw
