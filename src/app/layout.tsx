@@ -40,6 +40,26 @@ export const metadata: Metadata = {
   },
 };
 
+// schema.org Person structured data so search engines can link this site to my other profiles
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Adam Schroeder",
+  jobTitle: "Software Developer",
+  description,
+  url: siteUrl,
+  image: `${siteUrl}/headshot2.jpg`,
+  address: {
+    "@type": "PostalAddress",
+    addressRegion: "MN",
+    addressCountry: "US",
+  },
+  sameAs: [
+    "https://www.linkedin.com/in/adam-schroeder/",
+    "https://ramblinfool.com/",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -47,7 +67,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={plexMono.className}>{children}</body>
+      <body className={plexMono.className}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(personJsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
