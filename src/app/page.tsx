@@ -163,8 +163,8 @@ export default function Home() {
           </div>
 
           <p className="text-slate-600 dark:text-slate-300 text-sm text-center text-balance mb-10">
-            P.S. While you&apos;re here, my wife is an awesome author. Check
-            out her books:{" "}
+            P.S. While you&apos;re here, my wife is an awesome author. Check out
+            her books:{" "}
             <a
               href="https://psfischbach.com/"
               target="_blank"
