@@ -129,9 +129,9 @@ export default function Home() {
             <p>
               Frontend-leaning software developer with 10+ years building web
               applications for enterprise and government teams, from accessible
-              UI to the cloud services behind it. Lately I lead frontend work on
-              large teams and build with AI tooling. Regularly up for a
-              challenge unless it involves really high cliffs.
+              UI to the cloud behind it. Lately I help lead frontend work and
+              build with AI tooling. Regularly up for a challenge unless it
+              involves really high cliffs.
             </p>
           </div>
 
