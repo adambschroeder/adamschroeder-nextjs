@@ -19,7 +19,7 @@ export const experiences: Experience[] = [
       {
         name: "State of Iowa HHS",
         description:
-          "Frontend developer helping lead a child welfare (CCWIS) modernization from legacy mainframe systems to a modern web application. Hands-on in the build, and closely involved in planning, backlog refinement, and engineering standards.",
+          "Helping lead frontend development on a child welfare (CCWIS) modernization from legacy mainframe systems to a modern web application. Hands-on in the build, and closely involved in planning, backlog refinement, and engineering standards.",
       },
       {
         name: "New Jersey DOE",
@@ -51,7 +51,7 @@ export const experiences: Experience[] = [
       {
         name: "Patterson Companies",
         description:
-          "Frontend/UI development for a pattern library used within an e-commerce application.",
+          "Frontend & UI development for a pattern library used within an e-commerce application.",
       },
     ],
   },
