@@ -22,7 +22,7 @@ export const experiences: Experience[] = [
           "Frontend developer helping lead a Child Protective Services modernization from legacy systems to a modern web application, hands-on in the build and closely involved in planning.",
       },
       {
-        name: "New Jersey Department of Education",
+        name: "New Jersey DOE",
         description:
           "Frontend development on a public-facing, AI-powered chatbot for the state's website, helping parents and families find information quickly.",
       },
