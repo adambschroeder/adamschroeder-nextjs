@@ -29,7 +29,7 @@ export const experiences: Experience[] = [
       {
         name: "Amazon Studios",
         description:
-          "Frontend and cloud development for Amazon Studios' title management web applications.",
+          "Frontend-focused full-stack development on Amazon Studios' title management web applications, built as micro frontend components with ownership from UI through the cloud services behind it. Led key features and was closely involved in planning with Amazon teams.",
       },
     ],
   },
