@@ -19,7 +19,7 @@ export const experiences: Experience[] = [
       {
         name: "State of Iowa HHS",
         description:
-          "Frontend developer helping lead a Child Protective Services modernization from legacy systems to a modern web application, hands-on in the build and closely involved in planning.",
+          "Frontend developer helping lead a child welfare (CCWIS) modernization from legacy mainframe systems to a modern web application. Hands-on in the build, and closely involved in planning, backlog refinement, and engineering standards.",
       },
       {
         name: "New Jersey DOE",
@@ -102,6 +102,6 @@ export const skills: SkillGroup[] = [
   {
     label: "Practices",
     items:
-      "Accessibility, user experience, frontend standards & code review, backlog refinement",
+      "Accessibility, user experience, engineering standards & code review, backlog refinement",
   },
 ];
